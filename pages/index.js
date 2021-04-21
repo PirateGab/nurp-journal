@@ -14,7 +14,7 @@ export default function Index({ allPosts, preview }) {
     <>
       <Layout preview={preview}>
         <Head>
-          <title>Nurp le site! {CMS_NAME}</title>
+          <title>Nurp le site!</title>
         </Head>
         <Container>
           <Intro />
