@@ -37,6 +37,7 @@ export default function Meta() {
         content={`A statically generated blog example using Next.js and Sanity.io.`}
       />
       <meta property="og:image" content={HOME_OG_IMAGE_URL} />
+      <meta name="google-site-verification" content="S72fKjdWSVQGBqP2T6QK4is_W3PKQJPAVZPPXIVXTx0" />
     </Head>
   )
 }
