@@ -24,17 +24,17 @@ export default function Form ({_id}) {
   }
 
   if (isSubmitting) {
-    return <h3>Submitting comment…</h3>
+    return <h3>Chargement du commentaire</h3>
   }
   if (hasSubmitted) {
     return (
     <>
-      <h3>Thanks for your comment!</h3>
+      <h3>Merci de votre commentaire :)</h3>
       <ul>
         <li>
-          Name: {formData.name} <br />
+          Nom: {formData.name} <br />
           Email: {formData.email} <br />
-          Comment: {formData.comment}
+          Commentaire: {formData.comment}
         </li>
       </ul>
     </>)

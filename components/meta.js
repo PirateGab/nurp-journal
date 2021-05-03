@@ -4,16 +4,19 @@ import { CMS_NAME, HOME_OG_IMAGE_URL } from '../lib/constants'
 export default function Meta() {
   return (
     <Head>
+             
+       <link rel="shortcut icon" type="icon" href="image pour le site\nurp_icone_du_site.ico" ></link>
+
       <link
         rel="apple-touch-icon"
         sizes="180x180"
         href="/favicon/apple-touch-icon.png"
+
       />
       <link
         rel="icon"
         type="image/png"
         sizes="32x32"
-        href="/favicon/favicon-32x32.png"
       />
       <link
         rel="icon"
